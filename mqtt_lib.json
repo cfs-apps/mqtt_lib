@@ -1,0 +1,28 @@
+{ "app": {
+   
+   "title": "MQTT_LIB",
+   "version": "0.1.0",
+   "owner": "OpenSatkit",
+   "url": "https://github.com/OpenSatKit-Apps/mqtt_lib",
+
+   "description": [
+      "MQTT Library"
+   ],
+
+   "cfs": {
+      "cfe-type": "CFE_LIB",
+      "obj-file": "mqtt_lib",
+      "entry-symbol": "MQTT_LibInit",
+      "name": "MQTT_LIB",
+      "priority": 0,
+      "stack": 0,
+      "load_addr": 0,
+      "exception-action": 0,
+      "app-framework": "osk",
+      "tables": [],
+      "cmd-mid": ""
+   }
+   
+}}
+
+
