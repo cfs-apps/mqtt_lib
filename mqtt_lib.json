@@ -1,9 +1,12 @@
-{ "app": {
+{ 
+
+   "app": {
    
    "title": "MQTT_LIB",
-   "version": "0.1.0",
-   "owner": "OpenSatkit",
-   "url": "https://github.com/OpenSatKit-Apps/mqtt_lib",
+   "version": "0.9.0",
+   "supplier": "Open STEMware",
+   "copyright": "bitValence",
+   "url": "https://github.com/cfs-apps/mqtt_lib",
 
    "description": [
       "MQTT Library"
@@ -19,10 +22,11 @@
       "load_addr": 0,
       "exception-action": 0,
       "app-framework": "osk",
-      "tables": [],
-      "cmd-mid": ""
-   }
-   
+      "tables": []
+   },
+
+   "requires": []
+
 }}
 
 
