@@ -553,7 +553,7 @@ int MQTTSubscribeWithResults(MQTTClient* c, const char* topicFilter, enum QoS qo
     else
         rc = FAILURE;
 
-   printf("MQTTSubscribeWithResults: After suback rc=%d\n",rc); // dcm
+   //printf("MQTTSubscribeWithResults: After suback rc=%d\n",rc); // dcm
 
 exit:
     if (rc == FAILURE)
