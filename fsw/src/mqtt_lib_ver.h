@@ -25,7 +25,7 @@
 
 
 #define MQTT_LIB_MAJOR_VER    1
-#define MQTT_LIB_MINOR_VER    0
+#define MQTT_LIB_MINOR_VER    1
 #define MQTT_LIB_LOCAL_REV    0
 
       
