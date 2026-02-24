@@ -23,9 +23,16 @@
 #ifndef _mqtt_lib_ver_h_
 #define _mqtt_lib_ver_h_
 
+/*
+** Versions:
+**
+** 1.0 - Initial release tested with jmsg_mqtt and jmsg_udp
+** 2.0 - Compatible with Basecamp 4.0 and cFS 7.0
+**
+*/
 
-#define MQTT_LIB_MAJOR_VER    1
-#define MQTT_LIB_MINOR_VER    1
+#define MQTT_LIB_MAJOR_VER    2
+#define MQTT_LIB_MINOR_VER    0
 #define MQTT_LIB_LOCAL_REV    0
 
       
