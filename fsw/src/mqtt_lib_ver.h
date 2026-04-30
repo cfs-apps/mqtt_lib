@@ -1,38 +1,33 @@
-/* 
+/*
+** Copyright 2022 bitValence, Inc.
+** All Rights Reserved.
+**
+** This program is free software; you can modify and/or redistribute it
+** under the terms of the GNU Affero General Public License
+** as published by the Free Software Foundation; version 3 with
+** attribution addendums as found in the LICENSE.txt.
+**
+** This program is distributed in the hope that it will be useful,
+** but WITHOUT ANY WARRANTY; without even the implied warranty of
+** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+** GNU Affero General Public License for more details.
+**
 ** Purpose: Define MQTT library version number
 **
-** Version:
-**   1.0.0 - Initial release compatible with cFS Caelum and Paho version TBD
-**
-** References:
-**   1. OpenSatKit Object-based Application Developer's Guide
-**   2. cFS Application Developer's Guide
-**
-**   Written by David McComas, licensed under the Apache License, Version 2.0
-**   (the "License"); you may not use this file except in compliance with the
-**   License. You may obtain a copy of the License at
-**
-**      http://www.apache.org/licenses/LICENSE-2.0
-**
-**   Unless required by applicable law or agreed to in writing, software
-**   distributed under the License is distributed on an "AS IS" BASIS,
-**   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-**   See the License for the specific language governing permissions and
-**   limitations under the License.
 */
 #ifndef _mqtt_lib_ver_h_
 #define _mqtt_lib_ver_h_
 
+
 /*
 ** Versions:
 **
-** 1.0 - Initial release tested with jmsg_mqtt and jmsg_udp
-** 2.0 - Compatible with Basecamp 4.0 and cFS 7.0
-**
+**   1.0.0 - Initial release compatible with cFS Caelum and Paho version TBD
+**   1.1.0 - Updates for JMSG project initial release
 */
 
-#define MQTT_LIB_MAJOR_VER    2
-#define MQTT_LIB_MINOR_VER    0
+#define MQTT_LIB_MAJOR_VER    1
+#define MQTT_LIB_MINOR_VER    1
 #define MQTT_LIB_LOCAL_REV    0
 
       
