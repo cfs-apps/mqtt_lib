@@ -22,13 +22,14 @@
 /*
 ** Versions:
 **
-**   1.0.0 - Initial release compatible with cFS Caelum and Paho version TBD
-**   1.1.0 - Updates for JMSG project initial release
-**   3.1.0 - Compatible with Basecamp 3.x new app version management
+** 1.0.0 - Initial release compatible with cFS Caelum and Paho version TBD
+** 1.1.0 - Updates for JMSG project initial release
+** 3.1.0 - Compatible with Basecamp 3.x new app version management
+** 4.0 0 - Updated to cFS 7.0 (Basecamp 4.0 release)
 */
 
-#define MQTT_LIB_MAJOR_VER    3
-#define MQTT_LIB_MINOR_VER    1
+#define MQTT_LIB_MAJOR_VER    4
+#define MQTT_LIB_MINOR_VER    0
 #define MQTT_LIB_LOCAL_REV    0
 
       
